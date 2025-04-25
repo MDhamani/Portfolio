@@ -169,7 +169,7 @@ export const projects = [
         webapp: "https://alpha-evently.vercel.app/",
         member: [
             {
-                name: "Mann Savani",
+                name: "Manav Dhamani",
                 img: "https://alpha-stark.github.io/images/MannSavani.jpg",
                 linkedin: "https://www.linkedin.com/in/mann-savani/",
                 github: "https://github.com/Alpha-Stark",
@@ -203,7 +203,7 @@ export const projects = [
         webapp: "https://datafort-1761ff.spheron.app/",
         member: [
             {
-                name: "Mann Savani",
+                name: "Manav Dhamani",
                 img: "https://alpha-stark.github.io/images/MannSavani.jpg",
                 linkedin: "https://www.linkedin.com/in/mann-savani/",
                 github: "https://github.com/Alpha-Stark",
