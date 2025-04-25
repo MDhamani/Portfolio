@@ -7,12 +7,12 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/sections/Hero";
 import Skills from "./components/sections/Skills";
-import Projects from "./components/sections/Projects";
+// import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
-import StartCanvas from "./components/canvas/Stars";
+// import StartCanvas from "./components/canvas/Stars";
 // import ProjectDetails from "./components/sections/ProjectDetails";
 
 const Body = styled.div`
