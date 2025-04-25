@@ -1,9 +1,9 @@
 export const Bio = {
     name: "Manav Dhamani",
-    image: "https://alpha-stark.github.io/images/MannSavaniLight.jpg",
-    roles: ["Full Stack Developer.", "Machine Learning Engineer.", ""],
-    description: "Passionate Software Engineer with expertise in Full-Stack Development, Microservices, and Scalable Systems. Adept at building high-performance applications using Next.js, Express.Js, Spring Boot, and cloud technologies. Enthusiastic about solving complex problems and delivering impactful solutions.",
-    github: "https://github.com/Alpha-Stark",
+    image: "../../assets/dp.jpg",
+    roles: ["Software Engineer.", "Machine Learning Dev."],
+    description: "I am a passionate software engineer with expertise in building scalable web applications and machine learning solutions. I enjoy solving complex problems and continuously learning new technologies.",
+    github: "https://github.com/MDhamani",
     resume: "https://drive.google.com/file/d/1xwhvirvZjZw1_2B99_DmumlqNKrEeJgg/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/manav-dhamani/",
     inaturalist: "",
@@ -27,7 +27,7 @@ export const skills = [
         ],
     },
         {
-        title: "Backend",
+        title: "Backend & Frontend",
         skills: [
             { name: "Django", image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg"},
             { name: "Flask", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
@@ -35,11 +35,6 @@ export const skills = [
             { name: "FastAPI", image: "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" },
             { name: "Express.js", image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
             { name: "Node.js (16)", image: "https://nodejs.org/static/images/logo.svg" },
-        ],
-    },
-    {
-        title: "Frontend",
-        skills: [
             { name: "Next.js (14)", image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=" },
             { name: "React.js (18)", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
             { name: "Redux", image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" },
@@ -48,6 +43,37 @@ export const skills = [
             { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" },
         ],
     },
+
+    {
+        title: "Machine Learning",
+        skills: [
+            { name: "PyTorch", image: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_and_wordmark.svg" },
+            { name: "TensorFlow", image: "https://upload.wikimedia.org/wikipedia/commons/2/20/TensorFlow_logo_and_wordmark.svg" },
+            { name: "OpenCV", image: "https://upload.wikimedia.org/wikipedia/commons/4/47/OpenCV_Logo_3.png" },
+            { name: "Scikit-learn", image: "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" },
+            { name: "Pandas", image: "https://pandas.pydata.org/pandas-docs/stable/_static/pandas.svg" },
+            { name: "NumPy", image: "https://numpy.org/images/logo.svg" },
+            { name: "Matplotlib", image: "https://matplotlib.org/stable/_static/logo2_compressed.svg" },
+            { name: "Seaborn", image: "https://seaborn.pydata.org/_static/seaborn-logo-wide-lightbg.svg" },
+            { name: "Hugging Face", image: "https://huggingface.co/front/assets/huggingface_logo.svg" },
+            { name: "OpenAI", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OpenAI_Logo.svg/1200px-OpenAI_Logo.svg.png" },
+            { name: "LangChain", image: "https://raw.githubusercontent.com/hwchase17/langchain/master/docs/img/logo.png" },
+            { name: "Gradio", image: "https://gradio.app/_static/gradio_logo_with_text_dark.svg" },
+            { name: "Plotly", image: "https://raw.githubusercontent.com/plotly/plotly.py/master/doc/static/logo.png" },
+        ],
+    },
+
+    // {
+    //     title: "Frontend",
+    //     skills: [
+    //         { name: "Next.js (14)", image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=" },
+    //         { name: "React.js (18)", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+    //         { name: "Redux", image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" },
+    //         { name: "Tailwind CSS", image: "https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" },
+    //         { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
+    //         { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" },
+    //     ],
+    // },
     // {
     //     title: "Backend",
     //     skills: [
@@ -60,17 +86,6 @@ export const skills = [
     //     ],
     // },
     {
-        title: "Databases",
-        skills: [
-            { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" },
-            { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
-            { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" },
-            { name: "PostgreSQL", image: "https://www.postgresql.org/media/img/about/press/elephant.png" },
-            { name: "Redis", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" },
-            { name: "SQLite", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" },
-        ],
-    },
-    {
         title: "DevOps & Cloud",
         skills: [
             { name: "AWS (EC2, S3)", image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
@@ -81,6 +96,17 @@ export const skills = [
             { name: "Terraform", image: "https://www.vectorlogo.zone/logos/hashicorp_terraform/hashicorp_terraform-icon.svg" },
             { name: "Git", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" },
             { name: "GitHub", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" },
+        ],
+    },
+    {
+        title: "Databases",
+        skills: [
+            { name: "MongoDB", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" },
+            { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+            { name: "MySQL", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" },
+            { name: "PostgreSQL", image: "https://www.postgresql.org/media/img/about/press/elephant.png" },
+            { name: "Redis", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" },
+            { name: "SQLite", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" },
         ],
     },
     {
@@ -109,23 +135,34 @@ export const experiences = [
     },
     {
         id: 1,
-        img: "https://alpha-stark.github.io/images/ExelanceITLogo.jpg",
+        img: "https://gridkey.in/Logos/iconLogo.png",
         role: "Software Development Engineer",
-        company: "ExeLance IT",
-        date: "Sep 2023 - Aug 2024",
-        desc: "Developed, Designed and implemented interactive and responsive user interfaces using React JS, enhancing the overall user experience. Developed and optimized RESTful APIs with Node.js and Express.js, facilitating efficient data retrieval and manipulation. Collaborated with cross-functional teams and followed Agile practices and conducted performance optimizations and resolved issues.",
+        company: "Gridkey Technologies",
+        date: "Apr 2023 - Aug 2024",
+        desc: "I developed scalable RESTful APIs for Model Portfolio and NAV modules using Python/Django, integrating ML-driven insights to help financial advisors craft data-backed investment strategies that boosted client profits by 30%. I optimized real-time financial data pipelines by redesigning SQL queries and implementing Redis caching, achieving 70% faster API responses, and rewrote Python refresh logic in C++ for a 75% speedup. My contributions accelerated feature delivery by 30% within agile sprints while maintaining high quality. I also enhanced CI/CD pipelines through parallel testing and workflow automation, increasing release efficiency by 35%. Additionally, I built a serverless trade importer using AWS Lambda and S3, automating the processing of over 7,000 transactions daily and reducing manual uploads by 80%.",
         skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs"],
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
         id: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-        role: "Event Lead",
-        company: "GDSC PPSU",
-        date: "Jul 2022 - Jun 2023",
-        desc: "As the Event Lead at the Google Developers Student Club (GDSC), I've had the privilege of mentoring over 800 enthusiastic students and engaging in exciting projects. Working alongside talented developers sharing same passion for technology has been truly fulfilling. Through my involvement with GDSC, I have also had the opportunity to host 8+ Tech events, including Hackathons, Study Jams, and Workshops. ",
-        skills: ["Leadership", "Team Management", "Event Planning and Coordination", "Community Building", "Public Speaking", "Problem-Solving", "Marketing and Promotion"],
+        img: "https://tesseracttechnolabs.com/wp-content/uploads/2022/09/logo.png",
+        role: "Software Development Engineer",
+        company: "Tesseract Technolabs",
+        date: "Nov 2021 - Apr 2023",
+        desc: "Modernized legacy systems achieving 5x faster deployments and reducing costs by 60%. I designed a distributed Redis caching layer with custom C++ clients, cutting database load by 40%, and developed serverless AWS Lambda functions to handle asynchronous tasks, lowering infrastructure costs by 30%. My Python automation scripts for CI/CD pipelines led to 35% faster deployments. I also contributed to a CTR prediction system using Field-Aware Factorization Machines and leveraged the PyTorch C++ API for inference, improving ad targeting accuracy by 30% and increasing CTR by 25%. On the hardware side, I built a YOLO-powered computer vision system with Arduino to detect face masks and manage access for 1,000+ people daily. In addition to engineering contributions, I conducted code reviews, mentored junior developers, and collaborated closely with clients and stakeholders to align solutions with business goals.",
+        skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs"],
+        doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
+    
+    // {
+    //     id: 2,
+    //     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    //     role: "Event Lead",
+    //     company: "GDSC PPSU",
+    //     date: "Jul 2022 - Jun 2023",
+    //     desc: "As the Event Lead at the Google Developers Student Club (GDSC), I've had the privilege of mentoring over 800 enthusiastic students and engaging in exciting projects. Working alongside talented developers sharing same passion for technology has been truly fulfilling. Through my involvement with GDSC, I have also had the opportunity to host 8+ Tech events, including Hackathons, Study Jams, and Workshops. ",
+    //     skills: ["Leadership", "Team Management", "Event Planning and Coordination", "Community Building", "Public Speaking", "Problem-Solving", "Marketing and Promotion"],
+    // },
     /* {
         id: 0,
         img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
@@ -151,10 +188,10 @@ export const education = [
     },
     {
         id: 1,
-        img: "https://alpha-stark.github.io/images/PPSavaniUniversityLogo.jpeg",
-        school: "P P Savani University, Surat",
+        img: "https://upload.wikimedia.org/wikipedia/en/9/93/Gujarat-Technological-University-Logo.png",
+        school: "Gujarat Technological University",
         date: "Aug 2018 - June 2021",
-        grade: "8.65 CGPA",
+        grade: "9.19 / 10.0 CGPA",
         // desc: "I have completed a Bachelor's degree in Computer Engineering at P P Savani University, Surat. I have taken courses in Data Structures & Algorithms, Design & Analysis of Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Google Developers Student Club (GDSC) at PPSU, where I lead and worked on exciting projects with a team of talented developers, along with mentoring over 800+ students.",
         degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
