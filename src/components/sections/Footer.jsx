@@ -91,15 +91,24 @@ const Footer = () => {
                     <SocialMediaIcon href={Bio.facebook} target="display">
                         <FacebookRounded />
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.twitter} target="display">
+                    {/* <SocialMediaIcon href={Bio.twitter} target="display">
                         <Twitter />
-                    </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.linkedin} target="display">
-                        <LinkedIn />
-                    </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.insta} target="display">
-                        <Instagram />
-                    </SocialMediaIcon>
+                    </SocialMediaIcon> */}
+                    
+                    <SocialMediaIcon href={Bio.inaturalist} target="display">
+                        <svg
+                            xmlns="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/3d/cf/fd3dcf43-dd35-57ee-beb4-6863bacf8607/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/434x0w.webp"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            width="24px"
+                            height="24px"
+                        >
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm1 8c-.83 0-1.5.67-1.5 1.5S11.17 18 12 18s1.5-.67 1.5-1.5S12.83 15 12 15z" />
+                        </svg>
+                        </SocialMediaIcon>
+                        <SocialMediaIcon href={Bio.linkedin} target="display">
+                            <LinkedIn />
+                        </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>&copy; 2024 Manav Dhamani. All rights reserved.</Copyright>
             </FooterWrapper>
