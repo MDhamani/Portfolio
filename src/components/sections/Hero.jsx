@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../assets/dp.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -250,7 +250,7 @@ const Hero = () => {
                         <HeroRightContainer>
                             <motion.div {...headContentAnimation}>
                                 <Tilt>
-                                    <Img src="assets/dp.jpg" alt="Manav Dhamani" />
+                                    <Img src={HeroImg} alt="Manav Dhamani" />
                                     {/* <Img src={HeroImg} alt="Manav Dhamani" /> */}
                                 </Tilt>
                             </motion.div>
