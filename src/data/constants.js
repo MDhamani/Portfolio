@@ -130,7 +130,7 @@ export const experiences = [
         date: "May 2025 - Present",
         // desc: "Built an automated Python-based grading pipeline, reducing manual effort by 70% and providing instant feedback. Conducted in-person code reviews & debugging sessions to help students optimize ML workflows and improve code quality.",
         // skills: ["Java", "Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Jupyter Notebook", "Git", "Code Review", "Debugging", "Automation"],
-        skills: ["Java", "Git", "Code Review", "Debugging", "Automation"],
+        skills: ["C++", "Java", "Git", "Code Review", "Debugging", "Automation"],
         // doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
@@ -140,7 +140,7 @@ export const experiences = [
         company: "Gridkey Technologies",
         date: "Apr 2023 - Aug 2024",
         desc: "I developed scalable RESTful APIs for Model Portfolio and NAV modules using Python/Django, integrating ML-driven insights to help financial advisors craft data-backed investment strategies that boosted client profits by 30%. I optimized real-time financial data pipelines by redesigning SQL queries and implementing Redis caching, achieving 70% faster API responses, and rewrote Python refresh logic in C++ for a 75% speedup. My contributions accelerated feature delivery by 30% within agile sprints while maintaining high quality. I also enhanced CI/CD pipelines through parallel testing and workflow automation, increasing release efficiency by 35%. Additionally, I built a serverless trade importer using AWS Lambda and S3, automating the processing of over 7,000 transactions daily and reducing manual uploads by 80%.",
-        skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs"],
+        skills: ["Python", "Java", "C++", "React Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs", "PostgreSQL", "Redis", "Django", "Machine Learning" ],
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     {
@@ -150,7 +150,7 @@ export const experiences = [
         company: "Tesseract Technolabs",
         date: "Nov 2021 - Apr 2023",
         desc: "Modernized legacy systems achieving 5x faster deployments and reducing costs by 60%. I designed a distributed Redis caching layer with custom C++ clients, cutting database load by 40%, and developed serverless AWS Lambda functions to handle asynchronous tasks, lowering infrastructure costs by 30%. My Python automation scripts for CI/CD pipelines led to 35% faster deployments. I also contributed to a CTR prediction system using Field-Aware Factorization Machines and leveraged the PyTorch C++ API for inference, improving ad targeting accuracy by 30% and increasing CTR by 25%. On the hardware side, I built a YOLO-powered computer vision system with Arduino to detect face masks and manage access for 1,000+ people daily. In addition to engineering contributions, I conducted code reviews, mentored junior developers, and collaborated closely with clients and stakeholders to align solutions with business goals.",
-        skills: ["Next Js", "React Js", "Express Js", "Node Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs"],
+        skills: ["Python", "Java", "C++", "React Js", "JavaScript", "TypeScript", "Git", "GitHub", "Scrum/Agile", "RESTful APIs", "PostgreSQL", "Redis", "Django", "Spring Boot", "Machine Learning", "Computer Vision", "Arduino", "YOLO"],
         doc: "https://drive.google.com/file/d/1im7HxcXBygHqY-tpGSKAZ19k9pH-QEA-/view?usp=sharing",
     },
     
