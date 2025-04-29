@@ -181,7 +181,7 @@ export const education = [
         img: "https://alpha-stark.github.io/images/NortheasternUniversityLogo.jpg",
         // img: "https://www.canamgroup.com/assets/universitylogos/1691388731-Northeastern-University-Boston-Campus.webp",
         school: "Khoury College of Computer Sciences, Northeastern University, Boston",
-        date: "Sep 2024 - Dec 2026",
+        date: "Sep 2024 - Present",
         grade: " 4.0/4.0 GPA",
         // desc: "I'll be joining Khoury College of Computer Sciences at Northeastern University, Boston, Massachusetts for my Master's degree in Computer Science.",
         degree: "Master of Science in Computer Science",
