@@ -48,7 +48,7 @@ export const skills = [
         title: "Machine Learning",
         skills: [
             { name: "PyTorch", image: "https://canada1.discourse-cdn.com/flex036/uploads/pytorch1/original/1X/6cd7da56682d360e2c6006ff3e31eb250c5a8675.png" },
-            { name: "TensorFlow", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ATensorflow_logo.svg&psig=AOvVaw3_c3BwgIBT9G1Z9z0oB_GS&ust=1745989004971000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCZlIW6_IwDFQAAAAAdAAAAABAJ" },
+            { name: "TensorFlow", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" },
             { name: "OpenCV", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/OpenCV_logo_black.svg/1200px-OpenCV_logo_black.svg.png" },
             { name: "Scikit-learn", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" },
             { name: "Pandas", image: "https://cdn.worldvectorlogo.com/logos/pandas.svg" },
