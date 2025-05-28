@@ -117,6 +117,8 @@ export const skills = [
             // { name: "Google Test", image: "https://raw.githubusercontent.com/golang/go/master/doc/logo/Go-Logo/PNG/Go-Logo_Blue.png" },
             { name: "Selenium", image: "https://static-00.iconduck.com/assets.00/selenium-icon-2048x1986-3fr2ikf8.png" },
             { name: "JUnit", image: "https://avatars.githubusercontent.com/u/874086?s=200&v=4" },
+            { name: "New Relic", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/New_Relic_Logo.svg/1200px-New_Relic_Logo.svg.png" },
+            { name: "OpenTelemetry", image: "https://opentelemetry.io/images/opentelemetry-logo.svg" },
         ],
     },
 ];
